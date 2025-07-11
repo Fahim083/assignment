@@ -328,7 +328,7 @@ text-align: center;
     width: 840px;
     height: 360px;
 }
-/* 
+
 .feedback {
   margin: 100px 150px;
   display: flex;
@@ -399,7 +399,7 @@ letter-spacing: 0%;
 text-align: center;
 
 }
-
+/* 
 .footer {
     display: flex;
     flex-direction: column;
