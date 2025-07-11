@@ -271,7 +271,7 @@ text-align: left;
   height: 50px;
   border-radius: 50%;
 }
-/* 
+
 .focus {
     background: white;
     border-radius: 20px;
@@ -328,6 +328,7 @@ text-align: center;
     width: 840px;
     height: 360px;
 }
+/* 
 .feedback {
   margin: 100px 150px;
   display: flex;
