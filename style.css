@@ -399,7 +399,7 @@ letter-spacing: 0%;
 text-align: center;
 
 }
-/* 
+ 
 .footer {
     display: flex;
     flex-direction: column;
@@ -465,4 +465,4 @@ button:hover {
     background-color: rgb(10, 224, 206);
     color: black;
     cursor: pointer;
-} */
+} 
