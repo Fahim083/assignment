@@ -1,0 +1,466 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Inter;
+  /* background: rgb(245, 248, 255); */
+}
+main {
+  background: rgb(245, 248, 255);
+}
+
+.hero-banner {
+  background-image: url("./assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+.navber {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px 150px;
+}
+.navber h1 {
+  color: rgb(78, 71, 255);
+  font-family: Inter;
+  font-size: 50px;
+  font-weight: 900;
+}
+.navber button {
+  color: white;
+  background-color: rgb(78, 71, 255);
+  padding: 12px 30px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+    cursor: pointer;
+}
+
+.hero-content {
+    margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    height: 30px;
+  width: 60%;
+
+}
+.hero-content h1 {
+ color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 65px;
+font-weight: 700;
+text-align: center;
+}
+.hero-content button {
+    margin-top: 50px;
+  color: white;
+  background-color: rgb(78, 71, 255);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+    cursor: pointer;
+}
+
+/* 
+.action {
+    padding:100px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+} 
+
+.action-right img{
+    border-radius: 20px;
+}
+.action-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.action-left h2 {
+ color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 42px;
+font-weight: 700;
+line-height: 49px;
+}
+.action-left p {color: rgba(37, 36, 50, 0.5);
+font-family: Raleway;
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.action-left button {
+ color: rgb(255, 255, 255);
+  background-color: rgb(78, 71, 255);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+cursor: pointer;
+width: 200px;
+border-radius: 10px;
+border: none;
+padding: 12px 20px;
+}
+
+.users {
+  border-radius: 24px;
+background: rgba(78, 71, 255, 0.1);
+  margin: 100px 150px;
+  text-align: center;
+  padding: 50px 80px;
+}   
+
+.users h1 {
+    background: rgba(78, 71, 255, 0.01);
+  color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 38px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 30px;
+}
+.user-details {
+    background-color: rgba(78, 71, 255, 0.001);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-details-left, .user-details-middle, .user-details-right {
+  display: flex;
+  background-color: rgba(78, 71, 255, 0.01);
+  flex-direction: column;
+  align-items: center;
+  width: 30%;       
+}
+.user-details h2
+{
+background-color: rgba(78, 71, 255, 0.001);
+color: rgb(78, 71, 255);
+font-family: Inter;
+font-size: 80px;
+font-weight: 700;
+line-height: 97px;
+letter-spacing: 0%;
+text-align: left;   
+}
+
+.user-details p
+{
+    background-color: rgba(78, 71, 255, 0.01);
+    color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.review {
+  margin: 100px 150px;
+ 
+}
+.review h1 {
+  text-align: center;
+  color: rgb(37, 36, 50);
+font-family: Raleway;
+font-size: 42px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0%;
+text-align: center;
+padding-bottom: 40px;
+}
+
+.star {
+     background-color: white;
+    display: flex;
+}
+.star img {
+     background-color: white;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+}
+.review-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+ 
+}
+
+.review-content-left,.review-content-right,.review-content-middle {
+    background-color: white;
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  border : 1px solid rgba(155, 151, 151, 0.1);
+  border-radius: 10px;
+    padding: 20px;
+}
+.review-content h2 {
+     background-color: white;
+  
+color: rgb(30, 30, 30);
+font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 120%;
+letter-spacing: -2%;
+text-align: left;
+}
+.review-content p {
+     background-color: white;
+color: rgb(30, 30, 30);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+.review-content h3 {
+     background-color: white;
+    
+color: rgb(117, 117, 117);
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.review-content h4 {
+     background-color: white;
+    
+color: rgb(117, 117, 117);
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.reviewer-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.focus {
+    background: white;
+    border-radius: 20px;
+  margin: 100px 150px;
+  padding: 70px 100px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.focus h1 {
+ background-color: white;
+color: rgb(0, 0, 0);
+font-family: Raleway;
+font-size: 50px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;       
+}
+
+.focus p {
+    background-color: white;
+   
+color: rgba(0, 0, 0, 0.5);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+.focus button {
+    background-color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 71, 255);
+    border: none;
+    border-radius: 10px;
+padding: 12px 20px;
+cursor: pointer;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.focus img {
+    border-radius: 20px;
+    width: 840px;
+    height: 360px;
+}
+.feedback {
+  margin: 100px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feedback-left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;    
+  color: rgb(0, 0, 0);
+font-family: Raleway;
+font-size: 50px;
+font-weight: 700;
+text-align: left;      
+}
+.feedback-right {
+    width: 500px;
+  color: rgb(37, 36, 50);
+font-family: Raleway;
+
+
+}
+
+.feedback-right h3 {
+    
+    color: rgb(0, 0, 0);
+font-family: Inter;
+font-size: 18px;
+font-weight: 500;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+padding: 7px 0px;
+}
+
+.feedback-right input {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid rgba(155, 151, 151, 0.1);
+    margin-bottom: 10px;
+}
+
+.feedback-right textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid rgba(155, 151, 151, 0.1);
+     margin-bottom: 20px;
+}
+.feedback-right button {
+    width: 100%;
+    background-color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgb(78, 71, 255);
+    border: none;
+    border-radius: 10px;
+padding: 12px 20px;
+cursor: pointer;
+font-family: Raleway;
+font-size: 16px;
+font-weight: 500;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+align-items: center;
+    padding: 50px;
+  background-color: #fff;
+  box-sizing: border-box;
+border-top: 1px solid rgba(0, 0, 0, 0.1);
+background: rgb(255, 255, 255);
+}
+.footer h1 {
+    color: rgb(78, 71, 255);
+font-family: Inter;
+font-size: 70px;
+font-weight: 900;
+text-align: center;
+}
+
+.footer p {
+
+padding-top:10px ;
+width:33%;
+color: rgb(137, 135, 161);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+}
+
+ul {
+    padding-top:20px ;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    
+color: rgb(137, 135, 161);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+a {
+    text-decoration: none;
+       
+color: rgb(137, 135, 161);
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+button:hover {
+    background-color: rgb(10, 224, 206);
+    color: black;
+    cursor: pointer;
+} */
